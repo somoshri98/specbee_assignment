@@ -1,0 +1,4 @@
+services:
+  dynamic_date_time.date_time:
+    class: Drupal\dynamic_date_time\DateTimeService
+    arguments: ["@datetime.time", "@date.formatter", "@config.factory"]

@@ -1,0 +1,7 @@
+location.admin_settings:
+  path: "/admin/config/dynamic_date_time/location"
+  defaults:
+    _title: "Location Settings"
+    _form: 'Drupal\dynamic_date_time\Form\LocationConfigForm'
+  requirements:
+    _permission: "administer site configuration"

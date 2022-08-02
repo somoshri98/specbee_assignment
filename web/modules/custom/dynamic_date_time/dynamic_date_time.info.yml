@@ -1,0 +1,7 @@
+name: Dynamic Date & Time
+type: module
+description: "Used to dynamically generate Date and Time."
+package: Custom
+core_version_requirement: "^8.9 || ^9"
+dependencies:
+  - block
